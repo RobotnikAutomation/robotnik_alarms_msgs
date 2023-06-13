@@ -1,6 +1,6 @@
 string[] recipients
-string subject
-string message
+AlarmStatus status
+string uuid
+string datetime
 ---
-bool success
-string msg
+ReturnMessage ret
