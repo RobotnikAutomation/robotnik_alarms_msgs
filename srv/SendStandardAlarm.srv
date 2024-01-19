@@ -1,0 +1,6 @@
+string alarm_name
+string broadcast
+AlarmStatus status
+---
+bool success
+string message
