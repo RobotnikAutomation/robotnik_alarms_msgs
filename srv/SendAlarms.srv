@@ -2,5 +2,6 @@ string[] recipients
 AlarmStatus status
 string uuid
 string datetime
+string[] files_to_upload
 ---
 ReturnMessage ret
