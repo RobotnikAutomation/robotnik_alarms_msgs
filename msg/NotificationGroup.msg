@@ -1,0 +1,2 @@
+string group_name
+NotificationBroadcoaster[] notification_broadcasters
