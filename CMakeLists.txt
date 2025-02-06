@@ -17,12 +17,20 @@ add_message_files(DIRECTORY msg
     AlarmStatus.msg
     AlarmStatusArray.msg
     ReturnMessage.msg
+    DefaultTrigger.msg
+    AlarmType.msg
+    NotificationBroadcoaster.msg
+    NotificationGroup.msg
+    AlarmTriggerType.msg
 )
 
 add_service_files(
   FILES
   SendAlarms.srv
   SendStandardAlarm.srv
+  GetAlarmTypes.srv
+  GetNotificationGroups.srv
+  GetAlarmTriggerTypes.srv
 )
 
 ## Generate added messages and services with any dependencies listed here

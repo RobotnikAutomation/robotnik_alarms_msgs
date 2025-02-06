@@ -1,0 +1,4 @@
+string type
+string description
+string msg_type
+DefaultTrigger default_trigger
